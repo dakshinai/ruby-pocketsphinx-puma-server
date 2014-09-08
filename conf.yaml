@@ -1,0 +1,24 @@
+
+handlers:
+  
+ - name: PrettifyingHandler
+   require: handlers/prettifier
+   recognizer:
+     hmm: /usr/local/share/pocketsphinx/model/hmm/en_US/hub4wsj_sc_8k
+     lm: /usr/local/share/pocketsphinx/model/lm/en_US/wsj0vp.5000.DMP
+     dict: /usr/local/share/pocketsphinx/model/lm/en_US/cmu07a.dic
+     bestpath: true
+     maxwpf: 700
+     fwdflat: true
+     maxhmmpf: 12000
+     wbeam: 1.0e-32
+     beam: 1.0e-50
+     pbeam: 1.0e-50
+   
+
+# Request audio and metadata is dumped to this dir
+request_dump_dir: out
+
+# Encoding of LM words. Used for converting output to JSON (which is always UTF-8)
+recognizer_encoding: iso-8859-15    
+

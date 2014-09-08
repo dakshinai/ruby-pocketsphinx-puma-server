@@ -1,0 +1,36 @@
+puma.config: #<Puma::Configuration:0x7ff499e10b78>
+rack.hijack?: true
+SERVER_PORT: 8080
+rack.multithread: true
+rack.run_once: false
+SERVER_NAME: 1.1.1.1
+rack.errors: #<IO:0x7ff49b710ab0>
+CONTENT_LENGTH: 57644
+REQUEST_URI: /recognize
+REQUEST_METHOD: PUT
+HTTP_VERSION: HTTP/1.1
+GATEWAY_INTERFACE: CGI/1.2
+sinatra.commonlogger: true
+rack.url_scheme: http
+rack.input: #<StringIO:0x7ff4978a0ca8>
+HTTP_HOST: 1.1.1.1:8080
+rack.version: 12
+SCRIPT_NAME: 
+rack.request.query_string: 
+rack.after_reply: 
+HTTP_EXPECT: 100-continue
+rack.request.query_hash: 
+rack.hijack: #<Puma::Client:0x7ff4978a12e8>
+PATH_INFO: /recognize
+CONTENT_TYPE: audio/x-wav
+SERVER_PROTOCOL: HTTP/1.1
+QUERY_STRING: 
+rack.logger: #<Logger:0x7ff497880110>
+HTTP_ACCEPT: */*
+SERVER_SOFTWARE: 2.9.0
+REMOTE_ADDR: 1.1.1.2
+rack.multiprocess: false
+sinatra.route: PUT /recognize
+puma.socket: #<TCPSocket:0x7ff4978a1338>
+HTTP_USER_AGENT: threaderdhttpput/1.0
+REQUEST_PATH: /recognize
